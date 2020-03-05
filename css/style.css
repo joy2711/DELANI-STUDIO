@@ -1,15 +1,18 @@
 .home {
-    /* height: 100vh; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
     background-image: url("../image/IP3-master/assets/backgrounds/h_img.jpg");
-    width: auto;
-    /* align-items: center;
-text-align: center;
-color: black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
 
 .home h1 {
     font-size: 50px;
-    text-align: center;
 }
 
 .home h4 {
@@ -23,13 +26,12 @@ h4 {
 .mouse {
     margin-top: 200px;
     transition: 2s;
-    text-align: center;
 }
 
 #aboutus h2 {
-    font-size: 20px;
+    font-size: 50px;
     text-align: center;
-    align-items: center;
+    margin-top: 50px;
 }
 
 p {
@@ -40,16 +42,24 @@ p {
 #services h3 {
     font-size: 50px;
     text-align: center;
-    align-items: center;
+    color: white;
     padding: 50px;
 }
 
 #services {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
     background-image: url("../image/IP3-master/assets/backgrounds/s_image.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
 
 #services p {
-    color: white;
     text-align: center;
     justify-content: center;
     font-size: 20px;
@@ -124,7 +134,7 @@ p {
 #overlay7,
 #overlay8 {
     display: none;
-    background-color: black;
+    background-color: white;
     opacity: 0.8;
     font-size: 30px;
     height: 120%;
@@ -149,8 +159,12 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 60vh;
+    height: 100vh;
     background-image: url("../image/IP3-master/assets/backgrounds/c_image.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
 }
 
 .contacts h1 {
@@ -163,7 +177,7 @@ p {
 #text {
     width: 160px;
     height: 160px;
-    background-color: blue;
+    background-color: #ffffff;
     border-radius: 15px;
     z-index: 1;
     opacity: 0.2;
@@ -177,14 +191,15 @@ p {
 
 input,
 textarea {
-    color: black;
+    color: white;
 }
 
 #Name,
 #Email,
 #Message {
     color: white;
-    background-color: blue;
+    background-color: #ffffff;
+    width: 650%;
 }
 
 .footer {
